@@ -116,7 +116,7 @@ or string_id == "menu_infamy_name_ranger" and "The Jaws of Crime"  --Infamy Arch
 or string_id == "menu_infamy_name_punk" and "The Inventor"  --Infamy Steampunk Mask
 or string_id == "menu_infamy_name_xp" and "Doswiadczenie z doswiadczenia"  --Infamy XP Bonus
 
---2poczekalnia
+--poczekalnia
 or string_id == "menu_waiting_is_ready" and "Gotow!"  --Lobby Ready String
 or string_id == "menu_waiting_is_not_ready" and "Nie gotowy!"  --Lobby Not Ready String
 
@@ -141,6 +141,24 @@ or string_id == "menu_difficulty_hard" and "średnie"  --Hard Name
 or string_id == "menu_risk_pd" and "niskie"  --Normal Name
 or string_id == "menu_difficulty_normal" and "niskie"  --Normal Name
 
+or string_id == "menu_player_inventory" and "Ekwipunek"
+or string_id == "menu_steam_inventory" and "Ekwipunek Steamowy"
+or string_id == "menu_infamytree" and "Nieslawa"
+or string_id == "menu_safehouse" and "Kryjowka"
+or string_id == "menu_back" and "Wróç"
+or string_id == "menu_content_updates" and "Aktualizacje modów"
+or string_id == "menu_visit_gamehub" and "Sprawdz community Paydaya na Steam"
+or string_id == "menu_visit_fbi_files" and "Sprawdz baze danych FBI"
+or string_id == "menu_options" and "Opcje"
+or string_id == "menu_credits" and "Autorzy"
+or string_id == "menu_quit" and "Wyjdá"
+or string_id == "dialog_warning_title" and "Uwaga!"
+or string_id == "dialog_are_you_sure_you_want_to_quit" and "Czy na pewno chcesz wyjsç?"
+or string_id == "dialog_yes" and "Tak"
+or string_id == "dialog_no" and "Nie"
+or string_id == "menu_cash" and "Kasa"
+or string_id == "menu_announcements" and "Informacje"
+or string_id == "rotarapes_dnasuot_hsac" and "."
 --Napisy
 --Tutorial cichy 01
 or string_id == "pln_sh11_00_01" and "Wiem, wiem. Wlorz maske."
