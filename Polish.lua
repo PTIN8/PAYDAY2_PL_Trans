@@ -168,6 +168,21 @@ or string_id == "pln_sh11_28_01" and "Nie spiesz sie. Daj mu przejsc, a potem ru
 or string_id == "pln_sh11_29_02" and "Dallas, nadal masz to coś w sobie. Imponujace. Teraz wrzuc zloto do wana i wynosmy sie z tad."
 
 --Tutorial cichy 02
+or string_id == "pln_sh12_01_03" and "Baza danych powinna byc na drugim pietrze."
+or string_id == "pln_sh12_02_02" and "Nie wchodzimy glownym wejsciem. Widzisz ten plot? Tedy wchodzimy, wloz maske i go prztnij."
+or string_id == "pln_sh12_05_02" and "Poloz ECM'a i otworz drzwi wytrychem."
+or string_id == "pln_sh12_07_02" and "Swietnie, teraz otworz drzwi."
+or string_id == "pln_sh12_09_03" and "Tym sie zajmuja ale to nas nie powstrzyma. Prawda?"
+or string_id == "pln_sh12_13_03" and "Po prostu przeskradaj się obok niej. Znajdz pokoj ochrony. Jesli to zrobisz zdolamy wylaczyc wszystkie kamery."
+or string_id == "pln-sh12_15_01" and "Ok, rozejrzyj sie za ta karta."
+or string_id == "pln_sh12_16_01" and "Trzymaj sie zdala od kamer, a one cie nie dostrzega."
+or string_id == "pln_sh12_17_03" and "Urzyj tej karty ktora znalazles i wedz do srodka. Badz gotow by uciszyc kogokolwie tam zobaczysz."
+or string_id == "pln_sh12_19_01" and "Ta konsola powinna kontrolowac wszystkie kamery. Urzyj jej i sprobuj zlokalizowac komputer w ten sposob."
+or string_id == "pln_sh11_21_01" and "Po prostu sie przeskradaj obok niego. Nie spiesz sie."
+or string_id == "pln_sh12_22_02" and "Uzyj pendriwea ktory ukradlismy ostatniej nocy."
+or string_id == "pln_sh12_23_01" and "Swietnie, teraz kilka sekund i powinnismy skonczyc"
+or string_id == "pln_sh12_24_03" and "Wez pendriwea i uuciekaj."
+or string_id == "pln_sh12_25_01" and "Dobra robota Dallas, Idz do wana i zabieraj sie z tad."
 
 or testAllStrings == true and string_id
 or text_original(self, string_id, ...)
