@@ -78,6 +78,12 @@ or string_id == "menu_credits_help" and "Zobacz tworcow gry"
 or string_id == "menu_quit" and "wyjdz"
 or string_id == "menu_quit_help" and "wyjdz z gry"
 
+--Crime.net
+or string_id == "menu_cn_short" and "Dla poczatkujacych"
+or string_id == "menu_cn_short_desc" and "Skoki dla nowych graczy"
+or string_id == "heist_short1" and "Pendrive"
+or string_id == "heist_short2" and "Odzyskaj koke"
+
 --interakcja i uniwersalne przycisiki
 or string_id == "menu_back" and "Cofnij [ESC]"
 or string_id == "dialog_yes" and "Tak"
@@ -132,6 +138,37 @@ or string_id == "menu_risk_swat" and "średnie"  --Hard Name
 or string_id == "menu_difficulty_hard" and "średnie"  --Hard Name
 or string_id == "menu_risk_pd" and "niskie"  --Normal Name
 or string_id == "menu_difficulty_normal" and "niskie"  --Normal Name
+
+--Napisy
+--Tutorial cichy 01
+or string_id == "pln_sh11_00_01" and "Wiem, wiem. Wlorz maske."
+or string_id == "pln_sh11_01_02" and "W poblizu powinien byc plot. Przetnij go i wejdz do srodka."
+or string_id == "pln_sh11_07_03" and "Dobra, ruchy."
+or string_id == "pln_sh11_03_03" and "Ta, zeczywiscie, zdejmij go."
+or string_id == "pln_sh11_04_01" and "Szybko, odpowiedz na pager."
+or string_id == "pln_sh11_05_02" and "Dobrze, spakuj to cialo i schowaj nim ktos zauwazy."
+or string_id == "pln_sh11_06_02" and "Moze ten smietnik?"
+or string_id == "pln_sh11_02_02" and "Idz dalej i nie zabawiaj sie. Jesli wlacza alarm lezymy."
+or string_id == "pln_sh11_08_02" and "Kolejny straznik przed toba. Pozostan w cieniu."
+or string_id == "pln_sh11_09_03" and "Ta, nie ominiesz tego straznika. Sprzatnij go."
+or string_id == "pln_sh11_10_01" and "Nie zapomnij schowac ciala."
+or string_id == "pln_sh11_11_03" and "Schowalem to kilka toreb na ciala."
+or string_id == "pln_sh11_12_01" and "Pamiętaj, w przyszlosci takie uslugi beda platne."
+or string_id == "pln_sh11_14_02" and "Cholera! Ktos zauwazyl cialo. Zdejmij go nim wlaczy alarm."
+or string_id == "pln_sh11_15_01" and "Coz, zrobil sie niezly balagan. Teraz zabierz te ciala."
+or string_id == "pln_sh11_16_01" and "Za tymi skrzynkami jest dobre miejsce. Teraz schowaj drogiego. Pamietaj o drogiej torbie."
+or string_id == "pln_sh11_17_01" and "Ok, jak sprzatnales ten balagan [dopisac bo ucielo dialog]"
+or string_id == "pln_sh11_18_02" and "Kurwa. Kolejny straznik i to przy pokoju serwerowym. Nie mamy czasu, po prostu go zdejmij."
+or string_id == "pln_sh11_19_01" and "Gosc od kontroli wglada na idiote ale nie mozemy go tak ciagle oszukiwac. Nastepnym razem oglosi alarm."
+or string_id == "pln_sh11_21_02" and "Zabierz zakodowane dane na pendriwie. Powinien byc w laptopie."
+or string_id == "pln_sh11_22_01" and "Swietnie, teraz zabierz cos wygladajacego na wartosciowe. pamietaj to ma byc zwykle wlamanie, nic ponad to."
+or string_id == "pln_sh11_24_03" and "Dobra, teraz ostroznie. Jest nowy straznik i pewnie szuka swoich kolegow. Cokolwiek by sie nie dzialo nie zabijaj go."
+or string_id == "pln_sh11_26_02" and "Pamietaj, nie zabijaj tego straznika! Jesli odpowiesz na jego pager to gosc z kontroli polapie sie ze cos jest nie tak."
+or string_id == "pln_sh11_28_01" and "Nie spiesz sie. Daj mu przejsc, a potem ruszaj."
+or string_id == "pln_sh11_29_02" and "Dallas, nadal masz to coś w sobie. Imponujace. Teraz wrzuc zloto do wana i wynosmy sie z tad."
+
+--Tutorial cichy 02
+
 or testAllStrings == true and string_id
 or text_original(self, string_id, ...)
 end
