@@ -92,6 +92,8 @@ or string_id == "dialog_default_sound_options_message" and "Czy chcesz zrestarto
 or string_id == "dialog_warning_title" and "Uwaga!"
 or string_id == "dialog_are_you_sure_you_want_to_clear_progress" and "Czy na pewno chcesz usunac swoj zapis? Wszystkie twoje pieniadze, cala reputacja i caly ekwipunek zostana stracone"
 or string_id == "dialog_safehouse_goto_text" and "Czy chcesz sie udac do kryjowki?"
+or string_id == "menu_visit_forum3" and "Nacisnij Klawisz"
+or string_id == "menu_or_press_any_xbox_button" and "Nacisnij Przycisk"
 
 --skille
 or string_id == "menu_spendable_skill_points" and "wolne punkty zdolnosci" --pozostałe punkty skillow
