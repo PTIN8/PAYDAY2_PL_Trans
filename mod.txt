@@ -1,0 +1,13 @@
+{
+	"name" : "PolskaLokalizacja",
+	"description" : "Fanowskie, nieoficjalne polskie tłumaczenie",
+	"author" : "arent8 i Hoxton314 w oparciu o kod autorstwa: Melting Terminal, Wobin Ralker",
+	"contact" : "willBe",
+	"version" : "0.1",
+	"hooks" : [
+   {
+        "hook_id" : "lib/managers/localizationmanager",
+        "script_path" : "Polish.lua"
+    }
+]
+}
