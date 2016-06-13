@@ -68,9 +68,9 @@ or string_id == "menu_inventory_help" and "dostosuj swoja postac"
 or string_id == "menu_safehouse" and "kryjowka"
 or string_id == "menu_safehouse_help" and "wedz do swojej kryjowki"
 or string_id == "menu_crimenet" and "Crime.net"  --CRIME.NET
-or string_id == "menu_crimenet_help" and "stworz lub dolacz do istniejacej ekipy"  --CRIME.NET Description
+or string_id == "menu_crimenet_help" and "Graj z innimy graczami"  --CRIME.NET Description
 or string_id == "menu_crimenet_offline" and "Crime.net offline"  --CRIME.NET Offline
-or string_id == "menu_crimenet_offline_help" and "rozpocznij samotna akcje"  --CRIME.NET Offline Description
+or string_id == "menu_crimenet_offline_help" and "Graj z botami"  --CRIME.NET Offline Description
 or string_id == "menu_options" and "Opcje"
 or string_id == "menu_options_help" and "dostosoj ustawienia gry"
 or string_id == "menu_credits" and "Tworcy"
@@ -132,14 +132,14 @@ or string_id == "menu_risk" and "Ryzyko: "  --Difficulty Name
 or string_id == "menu_lobby_difficulty_title" and "Ryzyko: "  --Difficulty Name
 or string_id == "menu_risk_elite" and "Smobojstwo"  --Deathwish Name
 or string_id == "menu_difficulty_apocalypse" and "Smobojstwo"  --Deathwish Name
-or string_id == "menu_risk_special" and "absurdalne"  --Overkill Name
-or string_id == "menu_difficulty_overkill" and "absurdalne"  --Overkill Name
-or string_id == "menu_risk_fbi" and "duze"  --Very Hard Name
-or string_id == "menu_difficulty_very_hard" and "duze"  --Very Hard Name
-or string_id == "menu_risk_swat" and "średnie"  --Hard Name
-or string_id == "menu_difficulty_hard" and "średnie"  --Hard Name
-or string_id == "menu_risk_pd" and "niskie"  --Normal Name
-or string_id == "menu_difficulty_normal" and "niskie"  --Normal Name
+or string_id == "menu_risk_special" and "Absurdalne"  --Overkill Name
+or string_id == "menu_difficulty_overkill" and "Absurdalny"  --Overkill Name
+or string_id == "menu_risk_fbi" and "Duze"  --Very Hard Name
+or string_id == "menu_difficulty_very_hard" and "Duzy"  --Very Hard Name
+or string_id == "menu_risk_swat" and "Srednie"  --Hard Name
+or string_id == "menu_difficulty_hard" and "Sredni"  --Hard Name
+or string_id == "menu_risk_pd" and "Niskie"  --Normal Name
+or string_id == "menu_difficulty_normal" and "Niski"  --Normal Name
 
 or string_id == "menu_player_inventory" and "Ekwipunek"
 or string_id == "menu_steam_inventory" and "Ekwipunek Steamowy"
@@ -207,3 +207,27 @@ or string_id == "pln_sh12_25_01" and "Dobra robota Dallas, Idz do wana i zabiera
 or testAllStrings == true and string_id
 or text_original(self, string_id, ...)
 end
+
+--ç = ć
+--Ç = Ć
+
+--ë = ł
+--Ë = Ł
+
+--é = ę
+--É = Ę
+
+--ä = ą
+--Ä = Ą
+
+--á = ź
+--Á = Ź
+
+--à = ż
+--À = Ż
+
+--ñ = ń
+--Ñ = Ń 
+
+--ú = ś
+--Ú = Ś
