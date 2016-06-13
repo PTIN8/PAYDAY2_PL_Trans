@@ -1,5 +1,5 @@
 {
-	"name" : "PolskaLokalizacja",
+	"name" : "Polska Lokalizacja",
 	"description" : "Fanowskie, nieoficjalne polskie tłumaczenie",
 	"author" : "arent8 i Hoxton314 w oparciu o kod autorstwa: Melting Terminal, Wobin Ralker",
 	"contact" : "willBe",
