@@ -161,6 +161,7 @@ or string_id == "menu_announcements" and "Informacje"
 or string_id == "rotarapes_dnasuot_hsac" and "."
 --Napisy
 --Tutorial cichy 01
+--Bain Lines
 or string_id == "pln_sh11_00_01" and "Wiem, wiem. Wlorz maske."
 or string_id == "pln_sh11_01_02" and "W poblizu powinien byc plot. Przetnij go i wejdz do srodka."
 or string_id == "pln_sh11_07_03" and "Dobra, ruchy."
@@ -186,6 +187,8 @@ or string_id == "pln_sh11_24_03" and "Dobra, teraz ostroznie. Jest nowy straznik
 or string_id == "pln_sh11_26_02" and "Pamietaj, nie zabijaj tego straznika! Jesli odpowiesz na jego pager to gosc z kontroli polapie sie ze cos jest nie tak."
 or string_id == "pln_sh11_28_01" and "Nie spiesz sie. Daj mu przejsc, a potem ruszaj."
 or string_id == "pln_sh11_29_02" and "Dallas, nadal masz to coś w sobie. Imponujace. Teraz wrzuc zloto do wana i wynosmy sie z tad."
+--Objectives Lines
+
 
 --Tutorial cichy 02
 or string_id == "pln_sh12_01_03" and "Baza danych powinna byc na drugim pietrze."
@@ -203,6 +206,24 @@ or string_id == "pln_sh12_22_02" and "Uzyj pendriwea ktory ukradlismy ostatniej 
 or string_id == "pln_sh12_23_01" and "Swietnie, teraz kilka sekund i powinnismy skonczyc"
 or string_id == "pln_sh12_24_03" and "Wez pendriwea i uuciekaj."
 or string_id == "pln_sh12_25_01" and "Dobra robota Dallas, Idz do wana i zabieraj sie z tad."
+
+--Tutorial głośny 01
+or string_id == "pln_sh21_01_01" and "Pamietaj, nie wkladaj maski. Najpierw sie rozejrzyj."
+or string_id == "pln_sh21_02_03" and "Tym cywilom placa za malo by sie toba interesowali. Nie wystrasz ich."
+or string_id == "pln_sh21_03_03" and "Koke znajdziesz w biurze menadzera. Bedzie strzezona wiec badz gotow."
+or string_id == "pln_sh12_04_02" and "To jeden z gangsterow. Zabij lub omin."
+or string_id == "pln_sh21_05_03" and "Ten kolega sie sam nie odsunie, wiec czas go zmusic."
+or string_id == "pln_sh21_06_03" and "To bylo proste. Teraz zamontuj wiertlo i otworz sejf."
+or string_id == "pln_sh21_07_01" and "Rozejrzyj sie po biurze, moze znajdziesz jakie dodatkowe lopy nim sejf sie otworzy."
+or string_id == "pln_sh21_08_01" and "Dobra Dallas, policja przybyla, zajmij sie nia."
+or string_id == "pln_sh21_09_01" and "Cholera, snajper w oknie na przeciwko, schowaj sie i zdejmij go."
+or string_id == "pln_sh21_11_02" and "To powinno pokazac im co sie dzieje gdy staje sie tobie na drodze. Teraz wez koke i zanis ja do vana."
+or string_id == "pln_sh21_12_03" and "Dobra robota, wrzuc koke do wana i zabieraj sie z tad."
+or string_id == "pln_sh22_01_01" and "Zalatwilem wam helikopter ale to troche zajmie."
+or string_id == "pln_sh22_02_03" and "Wezwali ekipe S.W.A.T. Pokarzcie im kto tu rzadzi."
+or string_id == "pln_sh22_04_01" and "Nie zapominj koki albo cala robota na nic!"
+or string_id == "pln_sh22-05_03" and "Wejdz do sklepu i zwiarz sprzedawczynie. Potrzebujemy zakladnika by odzyskac twojego przyjaciela od policji."
+or string_id == "pln_sh22_06_01" and "Swietnie, teraz zabierz zakladnika na zaplecze."
 
 or testAllStrings == true and string_id
 or text_original(self, string_id, ...)
